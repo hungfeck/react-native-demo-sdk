@@ -1,5 +1,4 @@
-import { NativeModules, Platform } from 'react-native';
-import { TexTer } from '../src/Texter';
+import { NativeModules, Platform, Text, View } from 'react-native';
 
 const LINKING_ERROR =
   `The package 'react-native-demo-sdk' doesn't seem to be linked. Make sure: \n\n` +
@@ -20,6 +19,15 @@ const DemoSdk = NativeModules.DemoSdk
 
 export function multiply(a: number, b: number): Promise<number> {
   return DemoSdk.multiply(a, b);
+}
+
+const TexTer = () => {
+
+  return (
+    <View>
+      <Text>You pressed 3 times</Text>
+    </View>
+  )
 }
 
 export { TexTer }
