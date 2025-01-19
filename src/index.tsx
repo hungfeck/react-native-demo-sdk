@@ -1,4 +1,6 @@
-import { NativeModules, Platform, Text, View } from 'react-native';
+import { NativeModules, Platform, Text, View, StyleSheet } from 'react-native';
+import { WebView } from 'react-native-webview';
+// import MyWebView from './MyWebView';
 
 const LINKING_ERROR =
   `The package 'react-native-demo-sdk' doesn't seem to be linked. Make sure: \n\n` +
@@ -30,4 +32,18 @@ const TexTer = () => {
   )
 }
 
-export { TexTer }
+const MyWebView = ({ uri }: { uri: string }) => {
+  return (
+    <View style={styles.container}>
+      <WebView source={{ uri }} style={styles.webview} />
+    </View>
+  );
+};
+
+const styles = StyleSheet.create({
+  container: { flex: 1 },
+  webview: { flex: 1 }
+});
+
+export { TexTer, MyWebView }
+

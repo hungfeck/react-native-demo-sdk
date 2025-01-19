@@ -186,5 +186,8 @@
     "type": "legacy-module",
     "languages": "kotlin-swift",
     "version": "0.45.5"
+  },
+  "dependencies": {
+    "react-native-webview": "^13.13.1"
   }
 }
