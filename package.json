@@ -1,6 +1,6 @@
 {
   "name": "react-native-demo-sdk",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "t",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
