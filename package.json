@@ -1,6 +1,6 @@
 {
   "name": "react-native-demo-sdk",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "description": "t",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
@@ -92,7 +92,7 @@
   },
   "peerDependencies": {
     "react": "*",
-    "react-native-webview": "13.13.1",
+    
     "react-native": "*"
   },
   "workspaces": [
@@ -190,6 +190,6 @@
     "version": "0.45.5"
   },
   "dependencies": {
-    
+    "react-native-webview": "13.13.1"
   }
 }
