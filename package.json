@@ -1,6 +1,6 @@
 {
   "name": "react-native-demo-sdk",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "description": "t",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
@@ -84,6 +84,7 @@
     "react-native-builder-bob": "^0.35.2",
     "release-it": "^17.10.0",
     "turbo": "^1.10.7",
+    "react-native-webview": "13.13.1",
     "typescript": "^5.2.2"
   },
   "resolutions": {
@@ -189,6 +190,6 @@
     "version": "0.45.5"
   },
   "dependencies": {
-    "react-native-webview": "13.13.1"
+    
   }
 }
