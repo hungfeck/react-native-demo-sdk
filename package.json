@@ -1,6 +1,6 @@
 {
   "name": "react-native-demo-sdk",
-  "version": "0.1.16",
+  "version": "0.1.17",
   "description": "t",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
@@ -83,7 +83,6 @@
     "react-native": "0.76.6",
     "react-native-builder-bob": "^0.35.2",
     "react-native-safe-area-context": "4.12.0",
-    "react-native-status-bar-height": "^2.6.0",
     "react-native-webview": "13.13.1",
     "release-it": "^17.10.0",
     "turbo": "^1.10.7",
@@ -189,5 +188,8 @@
     "type": "legacy-module",
     "languages": "kotlin-swift",
     "version": "0.45.5"
+  },
+  "dependencies": {
+    "react-native-status-bar-height": "^2.6.0"
   }
 }

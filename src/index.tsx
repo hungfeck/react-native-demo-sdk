@@ -26,13 +26,13 @@ const LINKING_ERROR =
 const DemoSdk = NativeModules.DemoSdk
   ? NativeModules.DemoSdk
   : new Proxy(
-      {},
-      {
-        get() {
-          throw new Error(LINKING_ERROR);
-        },
-      }
-    );
+    {},
+    {
+      get() {
+        throw new Error(LINKING_ERROR);
+      },
+    }
+  );
 
 export function multiply(a: number, b: number): Promise<number> {
   return DemoSdk.multiply(a, b);
@@ -77,16 +77,14 @@ const MyWebView = ({ route }: { route: any }) => {
       {/* <Text>itemId: {JSON.stringify(itemId)}</Text>
       <Text>otherParam: {JSON.stringify(otherParam)}</Text> */}
       <StatusBar translucent barStyle={'dark-content'} />
-      <View
-        style={{
-          width: '100%',
-          height: barHeight + headerHeight,
-          paddingTop: barHeight,
-          flexDirection: 'row',
-
-          justifyContent: 'space-between',
-          alignItems: 'center',
-        }}
+      <View style={{
+        width: '100%',
+        height: barHeight + headerHeight,
+        paddingTop: barHeight,
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+      }}
       >
         <TouchableOpacity
           style={styles.button}
@@ -95,7 +93,7 @@ const MyWebView = ({ route }: { route: any }) => {
           <Text>Back</Text>
         </TouchableOpacity>
         <Text>Vikki Care</Text>
-        <TouchableOpacity style={styles.button} onPress={() => {}}>
+        <TouchableOpacity style={styles.button} onPress={() => { }}>
           <Text>Press Here</Text>
         </TouchableOpacity>
       </View>
