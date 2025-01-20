@@ -1242,7 +1242,7 @@ PODS:
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
     - Yoga
-  - react-native-demo-sdk (0.1.15):
+  - react-native-demo-sdk (0.1.18):
     - DoubleConversion
     - glog
     - hermes-engine
@@ -1937,7 +1937,7 @@ SPEC CHECKSUMS:
   React-logger: d42a53754a7252cc7a851315f0da2e46b450ea92
   React-Mapbuffer: 89885d1518433a462fe64b68bf5e097997380090
   React-microtasksnativemodule: 36341e09dcd1df535503e6ed2ddf88f10da56d52
-  react-native-demo-sdk: 90a24dfcfc57439387c3a3d2d74cd4694c7dd769
+  react-native-demo-sdk: 6945e4cf01d76e6d794567e8ed8bea484df6fbce
   react-native-safe-area-context: 0f16e24dc808e9f0ced17f2bdcec692b2376fb68
   react-native-webview: 2da6a129c153ecbb72523f1f67cd43c84be7c42f
   React-nativeconfig: 539ff4de6ce3b694e8e751080568c281c84903ce

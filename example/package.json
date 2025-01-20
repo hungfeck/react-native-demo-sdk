@@ -10,9 +10,14 @@
     "build:ios": "react-native build-ios --scheme DemoSdkExample --mode Debug --extra-params \"-sdk iphonesimulator CC=clang CPLUSPLUS=clang++ LD=clang LDPLUSPLUS=clang++ GCC_OPTIMIZATION_LEVEL=0 GCC_PRECOMPILE_PREFIX_HEADER=YES ASSETCATALOG_COMPILER_OPTIMIZATION=time DEBUG_INFORMATION_FORMAT=dwarf COMPILER_INDEX_STORE_ENABLE=NO\""
   },
   "dependencies": {
+    "@react-native-masked-view/masked-view": "0.3.2",
+    "@react-navigation/elements": "2.2.4",
+    "@react-navigation/native": "7.0.13",
+    "@react-navigation/native-stack": "7.1.14",
     "react": "18.3.1",
     "react-native": "0.76.6",
     "react-native-safe-area-context": "4.12.0",
+    "react-native-screens": "~4.4.0",
     "react-native-webview": "13.13.1"
   },
   "devDependencies": {
@@ -22,15 +27,10 @@
     "@react-native-community/cli": "15.0.1",
     "@react-native-community/cli-platform-android": "15.0.1",
     "@react-native-community/cli-platform-ios": "15.0.1",
-    "@react-native-masked-view/masked-view": "0.3.2",
     "@react-native/babel-preset": "0.76.6",
     "@react-native/metro-config": "0.76.6",
     "@react-native/typescript-config": "0.76.6",
-    "@react-navigation/elements": "2.2.4",
-    "@react-navigation/native": "7.0.13",
-    "@react-navigation/native-stack": "7.1.14",
-    "react-native-builder-bob": "^0.35.2",
-    "react-native-screens": "~4.4.0"
+    "react-native-builder-bob": "^0.35.2"
   },
   "engines": {
     "node": ">=18"
