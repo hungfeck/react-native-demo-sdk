@@ -47,7 +47,7 @@ const TexTer = () => {
 };
 
 const MyWebView = ({ route }: { route: any }) => {
-  // const insets = useSafeAreaInsets();
+  const insets = useSafeAreaInsets();
   // const webViewRef = useRef(null);
   // const injectScript = ` const meta = document.createElement('meta'); meta.setAttribute('name', 'viewport'); meta.setAttribute('content', 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'); document.head.appendChild(meta); `;
   // const injectScript1 = `
@@ -73,7 +73,7 @@ const MyWebView = ({ route }: { route: any }) => {
   const headerHeight = 44;
   // const platformIOS = Platform as PlatformIOSStatic
   return (
-    <View style={[styles.container, { paddingBottom: 0 }]}>
+    <View style={[styles.container, { paddingBottom: insets.bottom }]}>
       {/* <Text>itemId: {JSON.stringify(itemId)}</Text>
       <Text>otherParam: {JSON.stringify(otherParam)}</Text> */}
       <StatusBar translucent barStyle={'dark-content'} />
