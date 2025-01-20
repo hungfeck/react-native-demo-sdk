@@ -40,7 +40,10 @@ const MyWebView = ({ route }: { route: any }) => {
     <View style={styles.container}>
       {/* <Text>itemId: {JSON.stringify(itemId)}</Text>
       <Text>otherParam: {JSON.stringify(otherParam)}</Text> */}
-      <WebView source={{ uri }} style={styles.webview} />
+      <WebView
+        style={styles.webview}
+        source={{ uri }}
+        automaticallyAdjustContentInsets={false} />
     </View>
   );
 };
