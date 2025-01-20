@@ -11,7 +11,7 @@ const MyWebView = ({ uri }: { uri: string }) => {
 
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: 'orange' },
-  webview: { flex: 1 }
+  webview: { flex: 1 },
 });
 
 export default MyWebView;
