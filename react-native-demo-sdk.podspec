@@ -16,6 +16,7 @@ Pod::Spec.new do |s|
 
   s.source_files = "ios/**/*.{h,m,mm,swift}"
   
+  s.dependency   'react-native-webview' # Thêm dependency cho WebView
   #s.dependency 'ReactNativeWebView', '~> 13.0'
 
   # Use install_modules_dependencies helper to install the dependencies if React Native version >=0.71.0.
